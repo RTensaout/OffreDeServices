@@ -1,5 +1,19 @@
 const dict = {
   fr: {
+    // HEAD
+    page_title: "Rayane Tensaout | Développeur Web — Sites Premium & E-Commerce",
+    page_desc: "Développeur web : site vitrine, e-commerce, SEO, performance. Portfolio, offres, contact.",
+
+    // ARIA / UI
+    nav_aria: "Navigation principale",
+    home_aria: "Accueil",
+    menu_aria: "Menu",
+    lang_aria: "Changer la langue",
+    whatsapp_aria: "WhatsApp",
+    lang_btn: "FR / AR",
+    whatsapp: "WhatsApp",
+
+    // NAV
     nav_services: "Services",
     nav_skills: "Capacités",
     nav_pricing: "Tarifs",
@@ -7,28 +21,31 @@ const dict = {
     nav_about: "À propos",
     nav_contact: "Contact",
 
+    // CTA
     cta_quote: "Demander un devis",
     cta_pricing: "Voir les tarifs",
     cta_portfolio: "Portfolio",
 
+    // HERO
     badge: "Disponible • Freelance / Mission",
     hero_title: "Développeur Web — Sites premium & SEO",
     hero_subtitle: "Je crée des sites rapides, élégants et responsives pour présenter vos offres et générer des clients.",
 
+    // KPI
     kpi1_t: "Performance",
     kpi1_v: "Site rapide & optimisé",
     kpi2_t: "SEO",
     kpi2_v: "Structure Google-friendly",
-    kpi3_t: "FR / AR",
-    kpi3_v: "Bilingue pro + RTL",
+    kpi3_t: "Design Unique",
+    kpi3_v: "Moderne & Captivant",
 
+    // PROFILE
     profile_role: "Développeur Web • PHP • SEO",
     pill_fast: "Rapide",
-
     quick_phone: "Téléphone",
+    email_label: "Email",
     quick_city: "Ville",
     quick_city_v: "Seddouk, Algérie",
-
     mini1_k: "Réponse",
     mini1_v: "Rapide",
     mini2_k: "Livraison",
@@ -36,26 +53,29 @@ const dict = {
     mini3_k: "Qualité",
     mini3_v: "Premium",
 
-    trust: "Design premium • Mobile • SEO • Performance • FR/AR",
+    // TRUST
+    trust: "Design premium • Mobile • SEO • Performance • E-Commerce",
     trust2: "Idéal pour entreprises, artisans, services",
 
+    // SERVICES
     services_title: "Services",
     services_subtitle: "Un site élégant, rapide, qui convertit et inspire confiance.",
     srv1_t: "Site vitrine premium",
     srv1_p: "Design moderne, sections claires, expérience pro.",
-    srv2_t: "Conversion",
-    srv2_p: "CTA, WhatsApp, formulaire, structure vendeuse.",
+    srv2_t: "Conversion & Vente",
+    srv2_p: "CTA, WhatsApp, formulaire, ou Boutique en ligne.",
     srv3_t: "SEO & performance",
     srv3_p: "Optimisation technique + structure Google-friendly.",
 
+    // SKILLS
     skills_title: "Capacités",
     skills_subtitle: "Sites vitrines, tunnels de vente et projets web plus avancés (Full-Stack).",
 
+    // PRICING (les montants restent fixes dans le HTML)
     pricing_title: "Tarifs",
     pricing_subtitle: "Devis clair selon pages, contenu et délais.",
     from: "À partir de",
     best: "Meilleur choix",
-    price_on_quote: "Sur devis",
 
     pr1_t: "Starter",
     pr1_tag: "1 page • rapide",
@@ -69,18 +89,20 @@ const dict = {
     pr2_li2: "SEO + performance",
     pr2_li3: "Portfolio + avis + sections pro",
 
-    pr3_t: "Pro+",
-    pr3_tag: "FR/AR • premium",
-    pr3_li1: "Bilingue FR/AR + RTL",
-    pr3_li2: "Optimisation conversion",
-    pr3_li3: "Option tracking + SEO avancé",
+    pr3_t: "E-Commerce",
+    pr3_tag: "Boutique • Vente",
+    pr3_li1: "Paiement en ligne sécurisé",
+    pr3_li2: "Gestion produits & stocks",
+    pr3_li3: "Panier + Expérience Client",
 
     pricing_note: "Dis-moi : pages, activité, contenu, délai. Je te réponds avec un devis simple et rapide.",
 
+    // PORTFOLIO
     portfolio_title: "Portfolio",
-    portfolio_subtitle: "Ton portfolio complet est disponible en ligne.",
+    portfolio_subtitle: "Mon portfolio complet est disponible en ligne.",
     pf_main_cta: "Voir tous mes projets (Portfolio)",
 
+    // ABOUT
     about_title: "À propos",
     about_p1: "Profil rigoureux, formé en ingénierie web (INSIM/ESGI).",
     about_p2: "Expérience de stage à Paris (Paylight) : sites responsives, intégration, maintenance, qualité pro.",
@@ -89,6 +111,7 @@ const dict = {
     why2: "Site rapide + responsive + pro",
     why3: "Communication claire + suivi",
 
+    // CONTACT
     contact_title: "Contact",
     contact_subtitle: "Dis-moi ton besoin (type de site, pages, délai). Je réponds rapidement.",
     contact_fast: "Contact direct",
@@ -101,11 +124,31 @@ const dict = {
     form_send: "Envoyer",
     form_hint: "Le formulaire ouvre votre email avec un message prêt à envoyer (pas de backend).",
 
+    // placeholders
+    name_ph: "Votre nom",
+    email_ph: "Votre email",
+    message_ph: "Décrivez votre besoin (type de site, pages, délai...)",
+
+    // FOOTER
     footer_name: "Rayane Tensaout",
     footer_top: "Haut de page"
   },
 
   ar: {
+    // HEAD
+    page_title: "ريان تنساوت | مطور ويب — مواقع احترافية ومتاجر إلكترونية",
+    page_desc: "مطور ويب: موقع تعريفي، متجر إلكتروني، SEO، أداء. أعمالي، خدماتي، تواصل.",
+
+    // ARIA / UI
+    nav_aria: "التنقل الرئيسي",
+    home_aria: "الرئيسية",
+    menu_aria: "القائمة",
+    lang_aria: "تغيير اللغة",
+    whatsapp_aria: "واتساب",
+    lang_btn: "AR / FR",
+    whatsapp: "واتساب",
+
+    // NAV
     nav_services: "الخدمات",
     nav_skills: "القدرات",
     nav_pricing: "الأسعار",
@@ -113,28 +156,31 @@ const dict = {
     nav_about: "نبذة عني",
     nav_contact: "تواصل",
 
+    // CTA
     cta_quote: "اطلب عرض سعر",
     cta_pricing: "شاهد الأسعار",
     cta_portfolio: "الأعمال",
 
+    // HERO
     badge: "متاح • عمل حر / مهمة",
     hero_title: "مطور ويب — مواقع احترافية وSEO",
     hero_subtitle: "أصمم مواقع سريعة وأنيقة ومتجاوبة لعرض خدماتك وجلب العملاء.",
 
+    // KPI
     kpi1_t: "الأداء",
     kpi1_v: "موقع سريع ومحسّن",
     kpi2_t: "SEO",
     kpi2_v: "بنية مناسبة لـ Google",
-    kpi3_t: "FR / AR",
-    kpi3_v: "ثنائي اللغة + RTL",
+    kpi3_t: "تصميم فريد",
+    kpi3_v: "حديث وجذاب",
 
+    // PROFILE
     profile_role: "مطور ويب • PHP • SEO",
     pill_fast: "سريع",
-
     quick_phone: "الهاتف",
+    email_label: "البريد",
     quick_city: "المدينة",
-    quick_city_v: "سيدوك، الجزائر",
-
+    quick_city_v: "صدوق، الجزائر",
     mini1_k: "الرد",
     mini1_v: "سريع",
     mini2_k: "التسليم",
@@ -142,26 +188,29 @@ const dict = {
     mini3_k: "الجودة",
     mini3_v: "Premium",
 
-    trust: "تصميم Premium • هاتف • SEO • أداء • FR/AR",
+    // TRUST
+    trust: "تصميم Premium • هاتف • SEO • أداء • E-Commerce",
     trust2: "مناسب للشركات والحرفيين والخدمات",
 
+    // SERVICES
     services_title: "الخدمات",
     services_subtitle: "موقع أنيق وسريع يجلب العملاء ويعطي ثقة.",
     srv1_t: "موقع تعريفي Premium",
     srv1_p: "تصميم حديث، أقسام واضحة، تجربة احترافية.",
-    srv2_t: "تحويل العملاء",
-    srv2_p: "CTA، واتساب، نموذج تواصل، هيكلة بيعية.",
+    srv2_t: "التحويل والبيع",
+    srv2_p: "CTA، واتساب، نموذج تواصل، أو متجر إلكتروني.",
     srv3_t: "SEO والأداء",
     srv3_p: "تحسين تقني + بنية مناسبة لـ Google.",
 
+    // SKILLS
     skills_title: "القدرات",
     skills_subtitle: "مواقع تعريفية، قمع بيع، ومشاريع ويب متقدمة (Full-Stack).",
 
+    // PRICING
     pricing_title: "الأسعار",
     pricing_subtitle: "عرض سعر واضح حسب الصفحات والمحتوى والمدة.",
     from: "ابتداءً من",
     best: "أفضل اختيار",
-    price_on_quote: "حسب الطلب",
 
     pr1_t: "Starter",
     pr1_tag: "صفحة واحدة • سريع",
@@ -175,18 +224,20 @@ const dict = {
     pr2_li2: "SEO + أداء",
     pr2_li3: "أعمال + آراء + أقسام احترافية",
 
-    pr3_t: "Pro+",
-    pr3_tag: "FR/AR • premium",
-    pr3_li1: "ثنائي اللغة + RTL",
-    pr3_li2: "تحسين التحويل",
-    pr3_li3: "تتبع اختياري + SEO متقدم",
+    pr3_t: "E-Commerce",
+    pr3_tag: "متجر • بيع",
+    pr3_li1: "دفع إلكتروني آمن",
+    pr3_li2: "إدارة المنتجات والمخزون",
+    pr3_li3: "سلة + تجربة عميل",
 
     pricing_note: "أرسل: عدد الصفحات، النشاط، المحتوى، المدة. سأرد بعرض سريع وواضح.",
 
+    // PORTFOLIO
     portfolio_title: "الأعمال",
-    portfolio_subtitle: "ملف أعمالك الكامل متوفر على الإنترنت.",
+    portfolio_subtitle: "ملف أعمالي الكامل متوفر على الإنترنت.",
     pf_main_cta: "شاهد كل أعمالي (Portfolio)",
 
+    // ABOUT
     about_title: "نبذة عني",
     about_p1: "ملف جاد وتكوين في هندسة الويب (INSIM/ESGI).",
     about_p2: "تجربة تدريب بباريس (Paylight): مواقع متجاوبة، إدماج، صيانة، جودة احترافية.",
@@ -195,6 +246,7 @@ const dict = {
     why2: "موقع سريع ومتجاوب واحترافي",
     why3: "تواصل واضح ومتابعة",
 
+    // CONTACT
     contact_title: "تواصل",
     contact_subtitle: "اكتب احتياجك (نوع الموقع، الصفحات، المدة). سأرد بسرعة.",
     contact_fast: "تواصل مباشر",
@@ -203,16 +255,29 @@ const dict = {
 
     form_name: "الاسم",
     form_email: "البريد الإلكتروني",
-    form_need: "ماذا تحتاج؟",
+    form_need: "احتياجك",
     form_send: "إرسال",
     form_hint: "النموذج يفتح بريدك برسالة جاهزة (بدون سيرفر).",
 
-    footer_name: "ريان تينساوت",
+    // placeholders
+    name_ph: "اكتب اسمك",
+    email_ph: "اكتب بريدك الإلكتروني",
+    message_ph: "اشرح احتياجك (نوع الموقع، عدد الصفحات، المدة...)",
+
+    // FOOTER
+    footer_name: "ريان تنساوت",
     footer_top: "أعلى الصفحة"
   }
 };
 
 let lang = "fr";
+
+function setHeadTexts(l) {
+  if (dict[l].page_title) document.title = dict[l].page_title;
+
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc && dict[l].page_desc) metaDesc.setAttribute("content", dict[l].page_desc);
+}
 
 function applyLang(l){
   lang = l;
@@ -220,10 +285,22 @@ function applyLang(l){
   document.documentElement.lang = isAR ? "ar" : "fr";
   document.documentElement.dir = isAR ? "rtl" : "ltr";
 
+  // Texte
   document.querySelectorAll("[data-i18n]").forEach(el=>{
     const key = el.getAttribute("data-i18n");
-    if(dict[l][key]) el.textContent = dict[l][key];
+    if (dict[l][key]) el.textContent = dict[l][key];
   });
+
+  // Attributs (placeholder, aria-label, title…)
+  document.querySelectorAll("[data-i18n-attr]").forEach(el=>{
+    const rules = el.getAttribute("data-i18n-attr").split(",");
+    rules.forEach(rule=>{
+      const [attr, key] = rule.split(":").map(s => s.trim());
+      if (attr && key && dict[l][key]) el.setAttribute(attr, dict[l][key]);
+    });
+  });
+
+  setHeadTexts(l);
 }
 
 document.getElementById("langBtn").addEventListener("click", ()=>{
@@ -269,7 +346,6 @@ document.getElementById("contactForm").addEventListener("submit", (e)=>{
   const email = (data.get("email") || "").toString().trim();
   const message = (data.get("message") || "").toString().trim();
 
-  // Code corrigé ici
   const subject = encodeURIComponent(lang === "ar" ? "طلب عرض سعر - من الموقع" : "Demande de devis - Site Web");
   const body = encodeURIComponent(
     (lang === "ar" ? "الاسم: " : "Nom: ") + name + "\n" +
@@ -279,3 +355,6 @@ document.getElementById("contactForm").addEventListener("submit", (e)=>{
 
   window.location.href = `mailto:rayanetensaout@gmail.com?subject=${subject}&body=${body}`;
 });
+
+// ✅ Langue par défaut au chargement
+applyLang("fr");
