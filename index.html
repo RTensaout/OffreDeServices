@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rayane Tensaout | Développeur Web — Sites Premium & E-Commerce</title>
+  <meta name="description" content="Développeur web : site vitrine, e-commerce, SEO, performance. Portfolio, offres, contact." />
+  <meta name="theme-color" content="#070b14" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .portfolio-cta-container {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .btn--large {
+      padding: 1rem 2.5rem;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-orb orb-2" aria-hidden="true"></div>
+  <div class="bg-orb orb-3" aria-hidden="true"></div>
+
+  <header class="header" id="top">
+    <div class="container header__row">
+      <a class="logo" href="#top" aria-label="Home">
+        <span class="logoMark">RT</span><span class="dot">.</span>
+      </a>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#services" data-i18n="nav_services">Services</a>
+        <a href="#skills" data-i18n="nav_skills">Capacités</a>
+        <a href="#pricing" data-i18n="nav_pricing">Tarifs</a>
+        <a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a>
+        <a href="#about" data-i18n="nav_about">À propos</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button id="langBtn" class="btn btn--ghost" type="button" aria-label="Changer la langue">
+          FR / AR
+        </button>
+        <a class="btn btn--primary" href="#contact" data-i18n="cta_quote">Demander un devis</a>
+      </div>
+
+      <button id="menuBtn" class="menuBtn" type="button" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div id="mobileMenu" class="mobileMenu" aria-hidden="true">
+      <a href="#services" data-i18n="nav_services">Services</a>
+      <a href="#skills" data-i18n="nav_skills">Capacités</a>
+      <a href="#pricing" data-i18n="nav_pricing">Tarifs</a>
+      <a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a>
+      <a href="#about" data-i18n="nav_about">À propos</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+
+      <div class="mobileActions">
+        <a class="btn btn--primary btn--full" href="#contact" data-i18n="cta_quote">Demander un devis</a>
+        <a class="btn btn--ghost btn--full" href="https://wa.me/213556283006" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn btn--ghost btn--full" href="https://rtensaout.github.io/rayane-portfolio/" target="_blank" rel="noopener" data-i18n="cta_portfolio">
+          Portfolio
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="reveal">
+          <p class="badge" data-i18n="badge">Disponible • Freelance / Mission</p>
+
+          <h1 class="heroTitle" data-i18n="hero_title">Développeur Web — Sites premium & SEO</h1>
+
+          <p class="lead" data-i18n="hero_subtitle">
+            Je crée des sites rapides, élégants et responsives pour présenter vos offres et générer des clients.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#pricing" data-i18n="cta_pricing">Voir les tarifs</a>
+            <a class="btn btn--ghost" href="https://rtensaout.github.io/rayane-portfolio/" target="_blank" rel="noopener" data-i18n="cta_portfolio">
+              Portfolio
+            </a>
+          </div>
+
+          <div class="kpiRow">
+            <div class="kpiCard">
+              <div class="kpiTop">
+                <span class="kpiIcon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M4 13a8 8 0 1 0 16 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M12 13l4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <div class="kpiTitle" data-i18n="kpi1_t">Performance</div>
+              </div>
+              <div class="kpiText" data-i18n="kpi1_v">Site rapide & optimisé</div>
+            </div>
+
+            <div class="kpiCard">
+              <div class="kpiTop">
+                <span class="kpiIcon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M10 18a8 8 0 1 1 5.3-14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M14 10l7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M14 10a4 4 0 1 0-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <div class="kpiTitle" data-i18n="kpi2_t">SEO</div>
+              </div>
+              <div class="kpiText" data-i18n="kpi2_v">Structure Google-friendly</div>
+            </div>
+
+            <div class="kpiCard">
+              <div class="kpiTop">
+                <span class="kpiIcon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <div class="kpiTitle" data-i18n="kpi3_t">Design Unique</div>
+              </div>
+              <div class="kpiText" data-i18n="kpi3_v">Moderne & Captivant</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="profileCard reveal">
+          <div class="profileGlow" aria-hidden="true"></div>
+
+          <div class="profileTop">
+            <div class="avatarWrap">
+              <img
+                class="avatar"
+                src="assets/rayane.jpg"
+                alt="Rayane Tensaout"
+                loading="lazy"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              />
+              <div class="avatarFallback" aria-hidden="true">RT</div>
+            </div>
+
+            <div>
+              <h2 class="profileName">Rayane Tensaout</h2>
+              <p class="profileRole" data-i18n="profile_role">Développeur Web • PHP • SEO</p>
+
+              <div class="profileBadges">
+                <span class="pill">HTML</span>
+                <span class="pill">PHP</span>
+                <span class="pill" data-i18n="pill_fast">Rapide</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="profileLines">
+            <p>
+              <strong data-i18n="quick_phone">Téléphone</strong> :
+              <a href="tel:+213556283006">+213 556 28 30 06</a>
+            </p>
+            <p>
+              <strong>Email</strong> :
+              <a href="mailto:rayanetensaout@gmail.com">rayanetensaout@gmail.com</a>
+            </p>
+            <p>
+              <strong data-i18n="quick_city">Ville</strong> :
+              <span data-i18n="quick_city_v">Seddouk, Algérie</span>
+            </p>
+          </div>
+
+          <div class="profileActions">
+            <a class="btn btn--primary btn--full" href="#contact" data-i18n="cta_quote">Demander un devis</a>
+            <a class="btn btn--ghost btn--full" href="https://wa.me/213556283006" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn--ghost btn--full" href="https://rtensaout.github.io/rayane-portfolio/" target="_blank" rel="noopener" data-i18n="cta_portfolio">
+              Portfolio
+            </a>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="profileMini">
+            <div class="miniItem">
+              <div class="miniK" data-i18n="mini1_k">Réponse</div>
+              <div class="miniV" data-i18n="mini1_v">Rapide</div>
+            </div>
+            <div class="miniItem">
+              <div class="miniK" data-i18n="mini2_k">Livraison</div>
+              <div class="miniV" data-i18n="mini2_v">Dans les délais</div>
+            </div>
+            <div class="miniItem">
+              <div class="miniK" data-i18n="mini3_k">Qualité</div>
+              <div class="miniV" data-i18n="mini3_v">Premium</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="container trust__row reveal">
+        <span class="trustText" data-i18n="trust">Design premium • Mobile • SEO • Performance • E-Commerce</span>
+        <span class="trustLine" aria-hidden="true"></span>
+        <span class="trustText" data-i18n="trust2">Idéal pour entreprises, artisans, services</span>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h2 data-i18n="services_title">Services</h2>
+          <p class="section__subtitle" data-i18n="services_subtitle">
+            Un site élégant, rapide, qui convertit et inspire confiance.
+          </p>
+        </div>
+
+        <div class="grid3">
+          <article class="cardX reveal">
+            <div class="cardX__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M4 6h16v12H4z" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 18v2h8v-2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 data-i18n="srv1_t">Site vitrine premium</h3>
+            <p data-i18n="srv1_p">Design moderne, sections claires, expérience pro.</p>
+          </article>
+
+          <article class="cardX reveal">
+            <div class="cardX__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 3a9 9 0 0 0-9 9v2a3 3 0 0 0 3 3h1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 3a9 9 0 0 1 9 9v2a3 3 0 0 1-3 3h-1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M7 17h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 data-i18n="srv2_t">Conversion & Vente</h3>
+            <p data-i18n="srv2_p">CTA, WhatsApp, formulaire, ou Boutique en ligne.</p>
+          </article>
+
+          <article class="cardX reveal">
+            <div class="cardX__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M4 19h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M6 16l4-5 3 3 5-7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 data-i18n="srv3_t">SEO & performance</h3>
+            <p data-i18n="srv3_p">Optimisation technique + structure Google-friendly.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h2 data-i18n="skills_title">Capacités</h2>
+          <p class="section__subtitle" data-i18n="skills_subtitle">
+            Sites vitrines, tunnels de vente et projets web plus avancés (Full-Stack).
+          </p>
+        </div>
+
+        <div class="skillGrid">
+          <div class="skillCard reveal"><strong>Front-end</strong><span>HTML5 • CSS3 • JavaScript</span></div>
+          <div class="skillCard reveal"><strong>Back-end</strong><span>PHP</span></div>
+          <div class="skillCard reveal"><strong>Database</strong><span>MySQL</span></div>
+          <div class="skillCard reveal"><strong>CMS</strong><span>WordPress</span></div>
+          <div class="skillCard reveal"><strong>Marketing</strong><span>Système.io (tunnels)</span></div>
+          <div class="skillCard reveal"><strong>SEO</strong><span>Structure + optimisation technique</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h2 data-i18n="pricing_title">Tarifs</h2>
+          <p class="section__subtitle" data-i18n="pricing_subtitle">Devis clair selon pages, contenu et délais.</p>
+        </div>
+
+        <div class="pricingGrid">
+          <article class="priceCard reveal">
+            <div class="priceTop">
+              <h3 data-i18n="pr1_t">Starter</h3>
+              <p class="priceTag" data-i18n="pr1_tag">1 page • rapide</p>
+            </div>
+            <div class="priceValue">
+              <span class="from" data-i18n="from">À partir de</span>
+              <span class="amount" data-i18n="price_on_quote">12000DA</span>
+            </div>
+            <ul class="priceList">
+              <li data-i18n="pr1_li1">Design premium + mobile</li>
+              <li data-i18n="pr1_li2">WhatsApp + formulaire</li>
+              <li data-i18n="pr1_li3">SEO de base</li>
+            </ul>
+            <a class="btn btn--ghost btn--full" href="#contact" data-i18n="cta_quote">Demander un devis</a>
+          </article>
+
+          <article class="priceCard priceCard--featured reveal">
+            <div class="ribbon" data-i18n="best">Meilleur choix</div>
+            <div class="priceTop">
+              <h3 data-i18n="pr2_t">Business</h3>
+              <p class="priceTag" data-i18n="pr2_tag">3–5 pages • Google</p>
+            </div>
+            <div class="priceValue">
+              <span class="from" data-i18n="from">À partir de</span>
+              <span class="amount" data-i18n="price_on_quote">18000DA</span>
+            </div>
+            <ul class="priceList">
+              <li data-i18n="pr2_li1">Pages complètes + structure</li>
+              <li data-i18n="pr2_li2">SEO + performance</li>
+              <li data-i18n="pr2_li3">Portfolio + avis + sections pro</li>
+            </ul>
+            <a class="btn btn--primary btn--full" href="#contact" data-i18n="cta_quote">Demander un devis</a>
+          </article>
+
+          <article class="priceCard reveal">
+            <div class="priceTop">
+              <h3 data-i18n="pr3_t">E-Commerce</h3>
+              <p class="priceTag" data-i18n="pr3_tag">Boutique • Vente</p>
+            </div>
+            <div class="priceValue">
+              <span class="from" data-i18n="from">À partir de</span>
+              <span class="amount" data-i18n="price_on_quote">30000DA</span>
+            </div>
+            <ul class="priceList">
+              <li data-i18n="pr3_li1">Paiement en ligne sécurisé</li>
+              <li data-i18n="pr3_li2">Gestion produits & stocks</li>
+              <li data-i18n="pr3_li3">Panier + Expérience Client</li>
+            </ul>
+            <a class="btn btn--ghost btn--full" href="#contact" data-i18n="cta_quote">Demander un devis</a>
+          </article>
+        </div>
+
+        <p class="note reveal" data-i18n="pricing_note">
+          Dis-moi : pages, activité, contenu, délai. Je te réponds avec un devis simple et rapide.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="portfolio">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h2 data-i18n="portfolio_title">Portfolio</h2>
+          <p class="section__subtitle" data-i18n="portfolio_subtitle">Mon portfolio complet est disponible en ligne.</p>
+        </div>
+
+        <div class="portfolio-cta-container reveal">
+          <a href="https://rtensaout.github.io/rayane-portfolio/" target="_blank" rel="noopener" class="btn btn--primary btn--large" data-i18n="pf_main_cta">
+            Voir tous mes projets (Portfolio)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="reveal">
+          <h2 data-i18n="about_title">À propos</h2>
+          <p data-i18n="about_p1">
+            Profil rigoureux, formé en ingénierie web (INSIM/ESGI).
+          </p>
+          <p data-i18n="about_p2">
+            Expérience de stage à Paris (Paylight) : sites responsives, intégration, maintenance, qualité pro.
+          </p>
+
+          <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">WordPress</span>
+            <span class="tag">SEO</span>
+          </div>
+        </div>
+
+        <div class="aboutCard reveal">
+          <h3 class="aboutCard__title" data-i18n="about_box_title">Pourquoi moi ?</h3>
+          <ul class="checklist">
+            <li data-i18n="why1">Organisation & respect des délais</li>
+            <li data-i18n="why2">Site rapide + responsive + pro</li>
+            <li data-i18n="why3">Communication claire + suivi</li>
+          </ul>
+
+          <div class="aboutCTA">
+            <a class="btn btn--primary btn--full" href="#contact" data-i18n="cta_quote">Demander un devis</a>
+            <a class="btn btn--ghost btn--full" href="https://rtensaout.github.io/rayane-portfolio/" target="_blank" rel="noopener" data-i18n="cta_portfolio">
+              Portfolio
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h2 data-i18n="contact_title">Contact</h2>
+          <p class="section__subtitle" data-i18n="contact_subtitle">
+            Dis-moi ton besoin (type de site, pages, délai). Je réponds rapidement.
+          </p>
+        </div>
+
+        <div class="contactGrid">
+          <div class="contactCard reveal">
+            <h3 data-i18n="contact_fast">Contact direct</h3>
+            <p class="muted" data-i18n="contact_fast_p">Le plus rapide : WhatsApp.</p>
+
+            <div class="contactList">
+              <a class="contactItem" href="tel:+213556283006">
+                <span class="contactIcon" aria-hidden="true">☎</span>
+                <span>+213 796 61 82 33</span>
+              </a>
+              <a class="contactItem" href="mailto:rayanetensaout@gmail.com">
+                <span class="contactIcon" aria-hidden="true">✉</span>
+                <span>rayanetensaout@gmail.com</span>
+              </a>
+              <a class="contactItem" href="https://wa.me/213556283006" target="_blank" rel="noopener">
+                <span class="contactIcon" aria-hidden="true">💬</span>
+                <span>WhatsApp</span>
+              </a>
+              <a class="contactItem" href="https://rtensaout.github.io/rayane-portfolio/" target="_blank" rel="noopener">
+                <span class="contactIcon" aria-hidden="true">🔗</span>
+                <span data-i18n="cta_portfolio">Portfolio</span>
+              </a>
+            </div>
+
+            <div class="divider"></div>
+            <p class="small muted" data-i18n="contact_note">
+              Je peux aussi proposer domaine + hébergement selon ton budget.
+            </p>
+          </div>
+
+          <form class="form reveal" id="contactForm">
+            <div class="form__row">
+              <label>
+                <span data-i18n="form_name">Nom</span>
+                <input name="name" type="text" required />
+              </label>
+              <label>
+                <span data-i18n="form_email">Email</span>
+                <input name="email" type="email" required />
+              </label>
+            </div>
+
+            <label>
+              <span data-i18n="form_need">Votre besoin</span>
+              <textarea name="message" rows="6" required></textarea>
+            </label>
+
+            <div class="form__actions">
+              <button class="btn btn--primary" type="submit" data-i18n="form_send">Envoyer</button>
+              <a class="btn btn--ghost" href="https://wa.me/213556283006" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+
+            <p class="small muted" id="formHint" data-i18n="form_hint">
+              Le formulaire ouvre votre email avec un message prêt à envoyer (pas de backend).
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="fab" href="https://wa.me/213556283006" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <span>💬</span>
+  </a>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <div>© <span id="year"></span> <span data-i18n="footer_name">Rayane Tensaout</span></div>
+      <div class="footer__links">
+        <a href="#top" data-i18n="footer_top">Haut de page</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
