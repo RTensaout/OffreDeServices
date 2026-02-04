@@ -8,14 +8,8 @@
   <meta name="theme-color" content="#070b14" />
   <link rel="stylesheet" href="styles.css" />
   <style>
-    .portfolio-cta-container {
-      text-align: center;
-      margin-top: 2rem;
-    }
-    .btn--large {
-      padding: 1rem 2.5rem;
-      font-size: 1.1rem;
-    }
+    .portfolio-cta-container { text-align: center; margin-top: 2rem; }
+    .btn--large { padding: 1rem 2.5rem; font-size: 1.1rem; }
   </style>
 </head>
 
@@ -26,11 +20,11 @@
 
   <header class="header" id="top">
     <div class="container header__row">
-      <a class="logo" href="#top" aria-label="Home">
+      <a class="logo" href="#top" data-i18n-attr="aria-label:home_aria">
         <span class="logoMark">RT</span><span class="dot">.</span>
       </a>
 
-      <nav class="nav" aria-label="Navigation principale">
+      <nav class="nav" aria-label="Navigation principale" data-i18n-attr="aria-label:nav_aria">
         <a href="#services" data-i18n="nav_services">Services</a>
         <a href="#skills" data-i18n="nav_skills">Capacités</a>
         <a href="#pricing" data-i18n="nav_pricing">Tarifs</a>
@@ -40,13 +34,13 @@
       </nav>
 
       <div class="actions">
-        <button id="langBtn" class="btn btn--ghost" type="button" aria-label="Changer la langue">
+        <button id="langBtn" class="btn btn--ghost" type="button" data-i18n="lang_btn" data-i18n-attr="aria-label:lang_aria">
           FR / AR
         </button>
         <a class="btn btn--primary" href="#contact" data-i18n="cta_quote">Demander un devis</a>
       </div>
 
-      <button id="menuBtn" class="menuBtn" type="button" aria-label="Menu">
+      <button id="menuBtn" class="menuBtn" type="button" data-i18n-attr="aria-label:menu_aria">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -61,7 +55,7 @@
 
       <div class="mobileActions">
         <a class="btn btn--primary btn--full" href="#contact" data-i18n="cta_quote">Demander un devis</a>
-        <a class="btn btn--ghost btn--full" href="https://wa.me/213556283006" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn btn--ghost btn--full" href="https://wa.me/213556283006" target="_blank" rel="noopener" data-i18n="whatsapp">WhatsApp</a>
         <a class="btn btn--ghost btn--full" href="https://rtensaout.github.io/rayane-portfolio/" target="_blank" rel="noopener" data-i18n="cta_portfolio">
           Portfolio
         </a>
@@ -163,7 +157,7 @@
               <a href="tel:+213556283006">+213 556 28 30 06</a>
             </p>
             <p>
-              <strong>Email</strong> :
+              <strong data-i18n="email_label">Email</strong> :
               <a href="mailto:rayanetensaout@gmail.com">rayanetensaout@gmail.com</a>
             </p>
             <p>
@@ -174,7 +168,7 @@
 
           <div class="profileActions">
             <a class="btn btn--primary btn--full" href="#contact" data-i18n="cta_quote">Demander un devis</a>
-            <a class="btn btn--ghost btn--full" href="https://wa.me/213556283006" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn--ghost btn--full" href="https://wa.me/213556283006" target="_blank" rel="noopener" data-i18n="whatsapp">WhatsApp</a>
             <a class="btn btn--ghost btn--full" href="https://rtensaout.github.io/rayane-portfolio/" target="_blank" rel="noopener" data-i18n="cta_portfolio">
               Portfolio
             </a>
@@ -290,7 +284,8 @@
             </div>
             <div class="priceValue">
               <span class="from" data-i18n="from">À partir de</span>
-              <span class="amount" data-i18n="price_on_quote">12000DA</span>
+              <!-- ✅ PRIX FIXE (pas de data-i18n ici) -->
+              <span class="amount">12000DA</span>
             </div>
             <ul class="priceList">
               <li data-i18n="pr1_li1">Design premium + mobile</li>
@@ -308,7 +303,7 @@
             </div>
             <div class="priceValue">
               <span class="from" data-i18n="from">À partir de</span>
-              <span class="amount" data-i18n="price_on_quote">18000DA</span>
+              <span class="amount">18000DA</span>
             </div>
             <ul class="priceList">
               <li data-i18n="pr2_li1">Pages complètes + structure</li>
@@ -325,7 +320,7 @@
             </div>
             <div class="priceValue">
               <span class="from" data-i18n="from">À partir de</span>
-              <span class="amount" data-i18n="price_on_quote">30000DA</span>
+              <span class="amount">30000DA</span>
             </div>
             <ul class="priceList">
               <li data-i18n="pr3_li1">Paiement en ligne sécurisé</li>
@@ -350,7 +345,8 @@
         </div>
 
         <div class="portfolio-cta-container reveal">
-          <a href="https://rtensaout.github.io/rayane-portfolio/" target="_blank" rel="noopener" class="btn btn--primary btn--large" data-i18n="pf_main_cta">
+          <a href="https://rtensaout.github.io/rayane-portfolio/" target="_blank" rel="noopener"
+             class="btn btn--primary btn--large" data-i18n="pf_main_cta">
             Voir tous mes projets (Portfolio)
           </a>
         </div>
@@ -361,12 +357,8 @@
       <div class="container about">
         <div class="reveal">
           <h2 data-i18n="about_title">À propos</h2>
-          <p data-i18n="about_p1">
-            Profil rigoureux, formé en ingénierie web (INSIM/ESGI).
-          </p>
-          <p data-i18n="about_p2">
-            Expérience de stage à Paris (Paylight) : sites responsives, intégration, maintenance, qualité pro.
-          </p>
+          <p data-i18n="about_p1">Profil rigoureux, formé en ingénierie web (INSIM/ESGI).</p>
+          <p data-i18n="about_p2">Expérience de stage à Paris (Paylight) : sites responsives, intégration, maintenance, qualité pro.</p>
 
           <div class="tags">
             <span class="tag">HTML5</span>
@@ -400,9 +392,7 @@
       <div class="container">
         <div class="sectionHead reveal">
           <h2 data-i18n="contact_title">Contact</h2>
-          <p class="section__subtitle" data-i18n="contact_subtitle">
-            Dis-moi ton besoin (type de site, pages, délai). Je réponds rapidement.
-          </p>
+          <p class="section__subtitle" data-i18n="contact_subtitle">Dis-moi ton besoin (type de site, pages, délai). Je réponds rapidement.</p>
         </div>
 
         <div class="contactGrid">
@@ -421,7 +411,7 @@
               </a>
               <a class="contactItem" href="https://wa.me/213556283006" target="_blank" rel="noopener">
                 <span class="contactIcon" aria-hidden="true">💬</span>
-                <span>WhatsApp</span>
+                <span data-i18n="whatsapp">WhatsApp</span>
               </a>
               <a class="contactItem" href="https://rtensaout.github.io/rayane-portfolio/" target="_blank" rel="noopener">
                 <span class="contactIcon" aria-hidden="true">🔗</span>
@@ -430,31 +420,29 @@
             </div>
 
             <div class="divider"></div>
-            <p class="small muted" data-i18n="contact_note">
-              Je peux aussi proposer domaine + hébergement selon ton budget.
-            </p>
+            <p class="small muted" data-i18n="contact_note">Je peux aussi proposer domaine + hébergement selon ton budget.</p>
           </div>
 
           <form class="form reveal" id="contactForm">
             <div class="form__row">
               <label>
                 <span data-i18n="form_name">Nom</span>
-                <input name="name" type="text" required />
+                <input name="name" type="text" required data-i18n-attr="placeholder:name_ph" />
               </label>
               <label>
                 <span data-i18n="form_email">Email</span>
-                <input name="email" type="email" required />
+                <input name="email" type="email" required data-i18n-attr="placeholder:email_ph" />
               </label>
             </div>
 
             <label>
               <span data-i18n="form_need">Votre besoin</span>
-              <textarea name="message" rows="6" required></textarea>
+              <textarea name="message" rows="6" required data-i18n-attr="placeholder:message_ph"></textarea>
             </label>
 
             <div class="form__actions">
               <button class="btn btn--primary" type="submit" data-i18n="form_send">Envoyer</button>
-              <a class="btn btn--ghost" href="https://wa.me/213556283006" target="_blank" rel="noopener">WhatsApp</a>
+              <a class="btn btn--ghost" href="https://wa.me/213556283006" target="_blank" rel="noopener" data-i18n="whatsapp">WhatsApp</a>
             </div>
 
             <p class="small muted" id="formHint" data-i18n="form_hint">
@@ -466,7 +454,7 @@
     </section>
   </main>
 
-  <a class="fab" href="https://wa.me/213556283006" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <a class="fab" href="https://wa.me/213556283006" target="_blank" rel="noopener" data-i18n-attr="aria-label:whatsapp_aria">
     <span>💬</span>
   </a>
 
